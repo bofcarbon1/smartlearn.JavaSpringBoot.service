@@ -67,12 +67,12 @@ Application Features
 
   this example this line will return all documents from a 'Course' collection
   
-  List<Course> findAll();
+  'List<Course> findAll();'
 
   this example returns documents from a 'Course' collection that match a string
   filter in name items in documents 
   
-  List<Course> findBycourseNameLike(String filter); 
+  'List<Course> findBycourseNameLike(String filter);' 
  
   . CourseIRepository.java
   . LearnerIRepository.java
